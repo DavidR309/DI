@@ -9,13 +9,16 @@
 @keyframes animacion {
     0% {
         background-color: aqua;
+        margin-left: 0px;
     }
     50% {
         border-radius: 999px;
         background-color: red;
         box-shadow: 15px 15px 15px orangered;
+        margin-left: 1500px;
     }
     100% {
         background-color: aqua;
+        margin-left: 0px;
     }
 }
