@@ -1,0 +1,21 @@
+#caja {
+    width: 50px;
+    height: 50px;
+    animation-name: animacion;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+}
+
+@keyframes animacion {
+    0% {
+        background-color: aqua;
+    }
+    50% {
+        border-radius: 999px;
+        background-color: red;
+        box-shadow: 15px 15px 15px orangered;
+    }
+    100% {
+        background-color: aqua;
+    }
+}
